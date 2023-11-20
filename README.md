@@ -11,7 +11,7 @@ In short:
 ```bash
 curl --location 'http://localhost:8000/api/recognize?iterator-level=block&lang=deu' \
 --header 'Content-Type: image/png' \
---data image-with-text.png'
+--data 'image-with-text.png'
 ```
 
 Where iterator-level is one of `symbol`, `word`, `textline`, `para`, `block`.
